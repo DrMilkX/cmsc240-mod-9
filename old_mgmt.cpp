@@ -2,6 +2,7 @@
 #include <vector>
 #include <map>
 #include <string>
+#include <algorithm>  // for removing a specific element from a vector (not built in on non-ARM architectures)
 
 using namespace std;
 
@@ -78,7 +79,13 @@ void add_workdays(vector<int> &workdays, int new_day){
 }
 
 void remove_workdays(vector<int> &workdays, int day_to_remove){
-    workdays.erase(remove(workdays.begin(), workdays.end(), day_to_remove), workdays.end());
+    vector<int> new_workdays;
+    for (int &day : workdays){
+        if (day != day_to_remove){
+            new_workdays.push_back(day);
+        }
+    }
+    workdays = new_workdays;
 }
 
 
