@@ -8,7 +8,7 @@ Module #9 - Corporate Restructure
 You've just been hired as the new programmer for this office -- but the code is horrendous! Please refactor the code using structs, maps, and enums to make it more efficient. However! 
 **Make sure the output is the exact same as the old management's (see [old_mgmt.cpp](old_mgmt.cpp))** (so your boss won't notice the difference)!
 
-**Create a new file called `new_mgmt.cpp` and compile it to an executable called `office` **
+** Create a new file called `new_mgmt.cpp` and compile it to an executable called `new_office` **
 
 1. Convert the salaries into an `enum`
 
