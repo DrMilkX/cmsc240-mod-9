@@ -1,8 +1,6 @@
 # cmsc240-mod-9
 Module #9 - Corporate Restructure
 
-**DUE 9/28 @ 11:59pm**
-
 ## Instructions
 
 You've just been hired as the new programmer for this office -- but the code is horrendous! Please refactor the code using structs, maps, and enums to make it more efficient. However! 
